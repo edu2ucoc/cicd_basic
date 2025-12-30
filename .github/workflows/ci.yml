@@ -27,7 +27,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    # 4. CI-pytest 실행
+    # 4. CI-pytest 실행 - 추가(단위테스트)
     - name: Run tests with pytest
       run: |
         pytest
