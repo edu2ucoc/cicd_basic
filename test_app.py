@@ -9,4 +9,4 @@ def test_add():
     assert add(1, 2) == 3
     assert add(-1, 1) == 0
     # 아래 내용을 풀어주면 ci 실패함 -> CD 진행 않됨
-    # assert add(-1, 1) == -1
+    assert add(-1, 1) == -1
